@@ -47,3 +47,11 @@ public:
         return low; // Converted insertion index
     }
 };
+
+int main(){
+    Solution s;
+    vector<int> nums = {2, 3};
+    int result = s.searchInsert(nums, 5);
+    cout << result << endl;
+    return 0;
+}
